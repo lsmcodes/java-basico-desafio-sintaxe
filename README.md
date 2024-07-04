@@ -1,23 +1,26 @@
 # DIO - Trilha Java Básico
-www.dio.me
+<div style="display:inline-block">
+        <picture>
+                <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Java-black?style=for-the-badge&logo=OpenJDK&logoColor=white">
+                <img src="https://img.shields.io/badge/Java-white?style=for-the-badge&logo=OpenJDK&logoColor=black" />
+        </picture>
+        <picture>
+                <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Maven-black?style=for-the-badge&logo=ApacheMaven&logoColor=white">
+                <img src="https://img.shields.io/badge/Maven-white?style=for-the-badge&logo=ApacheMaven&logoColor=black" />
+        </picture>
+        <picture>
+                <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Spring_Boot-black?style=for-the-badge&logo=SpringBoot&logoColor=white">
+                <img src="https://img.shields.io/badge/Spring_Boot-white?style=for-the-badge&logo=SpringBoot&logoColor=black" />
+        </picture>
+</div>
 
-## Autor do desafio
+## Autor do Desafio e Repositório Original
 - [Gleyson Sampaio](https://github.com/glysns)
+- [Desafio Sintaxe](https://github.com/digitalinnovationone/trilha-java-basico/tree/main/desafios/sintaxe)
 
-## Desafio de projeto
-Para realizar o desafio, os conhecimentos adquiridos durante o módulo de `Sintaxe` serão necessários, sobretudo declaração de variáveis, classe Scanner e concatenação de Strings.
+## Desafio de Projeto
+O desafio consiste em simular uma conta bancária através de terminal/console seguindo os seguintes requisitos:
 
-## Contexto
-O desafio é simular uma conta bancária através de terminal/console seguindo os seguintes requisitos:
-
-- Permitir que os dados sejam inseridos via terminal, sendo que o usuário receberá a mensagem de qual informação está sendo solicitada, desta forma: `"Digite o número da Agência:"`.
-
-- Depois de todas as informações serem inseridas, o sistema deverá exibir a seguinte mensagem: `"Olá [Nome Cliente], obrigado(a) por criar uma conta em nosso banco! Sua agência é [Agencia], conta [Numero] e com saldo de [Saldo] reais."`.
-
-## Atributos da classe Conta e exemplos de valores
-| Atributo     | Tipo    | Exemplo       |
-|--------------|---------|---------------|
-| Numero       | Integer | 1021          |
-| Agencia      | String  | 067-8         |
-| Nome Cliente | String  | Mario Andrade |
-| Saldo        | Double  | 237.48        |
+- Criar uma classe `Conta` para representar uma conta bancária contendo as propriedades `numero`, `agencia`, `nomeCliente` e `saldo`;
+- Permitir que os dados sejam inseridos via terminal, sendo que o usuário receberá uma mensagem solicitando cada uma das informações;
+- Depois de receber todas as informações, o sistema deverá exibir uma mensagem agradecendo pela criação da conta e as informações da mesma.
